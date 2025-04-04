@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="1st.css">
+    <link rel="stylesheet" href="myCv.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <style>
+        table, th, td {
+          border: 1px solid blue;
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+
+           <h1>IT'S ALL ABOUT MY CARRER</h1>
+           <a href="index.html" class="back">Back</a>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-row-1">
+                    <img style="width:220px; height: 220px;" src="myPic.jpg">
+                </div>
+                <div class="about-row-2">
+                    <h1>About Me</h1>
+                    <p>Graduated from Bachelor of Art (BA) Degree in computer science From
+                        2010-2013 E.C (Regular), at woldia University on september18, 2021 with
+                        cumulative CGPA of 3.56. Strong background in online library management
+                        system,</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links ex" onclick="opentab('experience')">Experiences</p>
+                            <p class="tab-links edu" onclick="opentab('education')">Educations</p>
+                        </div>
+                        <div class="tctnts">
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span><b>MAINTENANCE</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:Mobile and Computer Maintenance</li>
+                                <li><span><b>Software Troubleshooter</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:Troubleshooting software related cases</li>
+                                <li><span><b>Network configuration</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:Configuring network related issues</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents exp" id="experience">
+                            <ul>
+                                <li><span><b>TEACHING</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:In 2022/23-2023/24 at Sky view academy</li>
+                                <li><span><b>AGENCY</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:2024 at Altemeyuz foreign employment agency as a file uploader and computer expert for a year</li>
+                                <li><span><b>AGENCY</b></span><br>&nbsp;&nbsp;&nbsp;&nbsp;:2024 at KIng foreign employment agency the same position the previous one </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents edu" id="education">
+                            <table>
+                                <tr>
+                                    <th>GRADE</th>
+                                    <th>Place of Education</th>
+                                    <th>YEAR in EC</th>
+                                </tr>
+                                <tr>
+                                    <td>grade1-7</td>
+                                    <td>Damota primary school</td>
+                                    <td>1998-2004</td>
+                                </tr>
+                                <tr>
+                                    <td>Grade 8</td>
+                                    <td>Jarifulwha primary school</td>
+                                    <td>2005</td>
+                                </tr>
+                                <tr>
+                                    <td>Grade 9 and 10</td>
+                                    <td>Haik Highschool</td>
+                                    <td>2006-2007</td>
+                                </tr>
+                                <tr>
+                                    <td>Grade11</td>
+                                    <td>Kombolcha preparatory school</td>
+                                    <td>2008</td>
+                                </tr>
+                                <tr>
+                                    <td>Grade12</td>
+                                    <td>Haik Preparatory School</td>
+                                    <td>2009</td>
+                                </tr>
+                                <tr>
+                                    <td>Degree</td>
+                                    <td>Woldia University</td>
+                                    <td>2010-2013</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+
+        </div>
+    </div>
+<script src="1st.js"></script>
+</body>
+</html>
